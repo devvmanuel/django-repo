@@ -1,5 +1,13 @@
 from django.shortcuts import render,redirect
 
+
+
+def signup(request):
+    return render(request, "signup.html")
+
+def indexpage(request):
+    return render(request, "index.html")
+
 def aboutpage(request):
     return render(request, "about.html")
 
